@@ -17,7 +17,7 @@
   .banner {
     text-align: center;
   }
-  
+
 }
 
 .banner__image {
@@ -39,7 +39,7 @@
 .task__input {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .new-task__wrapper {
@@ -74,7 +74,7 @@
 }
 
 .btn:hover {
-  color: #3a3A3a;
+  color: #3a3a3a;
 }
 
 /* Heading */
@@ -145,7 +145,7 @@
 }
 
 .task__input {
-  width: 226px
+  width: 226px;
 }
 
 .btn__delete-icon {
@@ -166,12 +166,12 @@
 
 /* Edit Task */
 .task__input {
-  display: none
+  display: none;
 }
 
 .task-list__item--edit .task__input {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .task-list__item--edit .task__label {
