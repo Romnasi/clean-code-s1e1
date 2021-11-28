@@ -7,24 +7,24 @@
   </head>
   
   <body class="page">
-    <div class="page__banner banner">
+    <article class="page__banner banner">
       <img class="banner__image" src="./eisenhower-matrix.jpg">
       <a class="banner__link" href="https://goal-life.com/page/method/matrix-eisenhower">
         Want more details?
       </a>
-    </div>
+    </article>
 
-    <div class="todo">
-      <p class="todo_new-task new-task">
+    <section class="todo">
+      <div class="todo_new-task new-task">
         <label class="new-task__label" for="new-task">Add Item</label>
   
         <div class="new-task__wrapper">
           <input class="new-task__control" id="new-task" type="text">
           <button class="new-task__btn btn">Add</button>
         </div>
-      </p>
+      </div>
     
-      <h3 class="todo__header">Todo</h3>
+      <h1 class="todo__header">Todo</h1>
       
       <ul class="task-list task-list--incomplete task" id="incompleteTasks">
         <li class="task-list__item task">
@@ -50,7 +50,7 @@
         </li>
       </ul>
 
-      <h3 class="todo__header">Completed</h3>
+      <h2 class="todo__header">Completed</h2>
 
       <ul class="task-list task-list--completed task" id="completed-tasks">
         <li class="task-list__item">
@@ -65,7 +65,7 @@
         </li>
       </ul>
 
-    </div>
+    </section>
 
     <script src="app.js"></script>
   </body>
